@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+body {
+  background-color: rgb(149, 89, 201);
+  color: rgb(6, 12, 26);
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Comfortaa";
+  background-image: url(https://wallpaperaccess.com/full/1183596.jpg);
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+.photo {
+  /* display: block;  */
+  width: 300px;
+  /* margin: auto; */
+  border-radius: 30px;
+  box-shadow: -10px 12px 9px 0px rgb(179 122 203 / 63);
+}
+a {
+  color: #6C8CD5;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: rgb(239, 176, 188);
+}
+/* a:visited {
+  color: azure;
+} */
+.myname {
+  color: rgba(6, 12, 26, 0.795);
+  padding-top: 15px;
+  text-align: center;
+  margin: auto;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  margin-bottom: 15px;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+.container h2 {
+  color: rgba(6, 12, 26, 0.795);
+}
+.bg-yellow {
+  background: rgb(233, 235, 145);
+}
+.bg-green {
+  background: rgb(157, 235, 145);
+}
+.bg-orange {
+  background: rgb(227, 184, 138);
+}
+/* .social {
+  background: cadetblue;
+  padding: 15px;
+  margin: 10px;
+  border: 5px solid blueviolet;
+  border-radius: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-style: ridge;
+} */
+.info {
+  display: flex;
+  margin-bottom: 40px;
+}
+.info h4 {
+  color: rgba(6, 12, 26, 0.795);
+}
+.info-text {
+  margin-left: 20px;
+}
+.info-text h4 {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.info p {
+  color: rgba(6, 12, 26, 0.795);
+  margin: 0;
+  font-style: oblique;
+  font-weight: bold;
+  text-decoration: none;
+  /* text-transform: capitalize; */
+}
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.card h2 {
+  margin-bottom: 12px;
+  color: rgb(6, 12, 26);
+}
+.cardcontact {
+  color: rgba(199, 219, 23, 0.589) !important;
+}
+.list {
+  padding: 0 20px;
+}
+.list li {
+  margin-bottom: 5px;
+  color: rgb(6, 12, 26);
+}
+.table {
+  width: 100%;
+}
+.mytable td {
+  padding-bottom: 5px;
+}
+.mytable td:nth-child(2),
+:nth-child(3) {
+  color: rgb(107, 107, 107);
+}
+.contact h2 {
+  text-align: center;
+}
+.form-group label {
+  display: block;
+  font-size: 16px;
+  color: rgb(157, 168, 54);
+  margin-bottom: 3px;
+  margin-top: 5px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid rgb(163, 221, 218);
+  color: rgba(199, 219, 23, 0.589);
+  padding: 3px 2px 3px 2px;
+  outline: none;
+  font-family: inherit;
+}
+.form-group input::placeholder {
+color: rgba(255, 255, 255, 0.534);
+}
+.form-group textarea::placeholder {
+  color: rgba(255, 255, 255, 0.534);
+}
+.contact-row {
+  display: flex;
+  margin-bottom: 20px;
+}
+.contact-row > .form-group {
+  width: 50%;
+  margin-right: 25px;
+}
+.butn {
+  display: block;
+  margin: auto;
+  font-family: inherit;
+  background: transparent;
+  border-radius: 3px;
+  border-width: 0px 0px 2px 0px;
+  padding: 15px 20px;
+  margin-top: 10px;
+  border-color: rgb(200, 219, 23);
+  color: rgb(200, 219, 23);
+  cursor: pointer;
+}
